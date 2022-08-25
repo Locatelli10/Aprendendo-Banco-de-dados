@@ -1,4 +1,25 @@
-CREATE TABLE Ingredientes (comidaid INTEGER PRIMARY KEY, nome TEXT);
-INSERT INTO Ingredientes VALUES (1, carne);
-INSERT INTO Ingredientes VALUES (2, frango);
-INSERT INTO Ingredientes VALUES (3, lagosta);
+//Criando a tabela
+CREATE TABLE Ingredientes (comidaid INTEGER PRIMARY KEY, nome TEXT, preço REAL);
+
+//Inserindo valores
+INSERT INTO Ingredientes VALUES (1, carne, 40);
+INSERT INTO Ingredientes VALUES (2, frango, 22);
+INSERT INTO Ingredientes VALUES (3, lagosta, 80);
+INSERT INTO Ingredientes VALUES (4, camarão, 60);
+INSERT INTO Ingredientes VALUES (5, arroz, 12.5);
+INSERT INTO Ingredientes VALUES (6, feijão, 8.4);
+INSERT INTO Ingredientes VALUES (7, espaguete, 6.7);
+INSERT INTO Ingredientes VALUES (8, ervilha, 4.5);
+INSERT INTO Ingredientes VALUES (9, queijo, 35.7);
+INSERT INTO Ingredientes VALUES (10, coentro, 3);
+INSERT INTO Ingredientes VALUES (11, salsa, 3);
+INSERT INTO Ingredientes VALUES (12, cebola, 4.1);
+INSERT INTO Ingredientes VALUES (13, alho, 5.2);
+INSERT INTO Ingredientes VALUES (14, tomate, 4.6);
+INSERT INTO Ingredientes VALUES (15, pimenta, 7.3);
+
+//Organizando pelo preço
+SELECT*FROM Ingredientes ORDER BY preço DESC;
+
+//Selecionando o ingrediente de valor mais alto
+SELECT MAX(preço) FROM Ingredientes;

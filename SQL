@@ -1,0 +1,4 @@
+CREATE TABLE Ingredientes (comidaid INTEGER PRIMARY KEY, nome TEXT);
+INSERT INTO Ingredientes VALUES (1, carne);
+INSERT INTO Ingredientes VALUES (2, frango);
+INSERT INTO Ingredientes VALUES (3, lagosta);

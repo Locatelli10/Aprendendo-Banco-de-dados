@@ -23,3 +23,6 @@ SELECT*FROM Ingredientes ORDER BY preço DESC;
 
 //Selecionando o ingrediente de valor mais alto
 SELECT MAX(preço) FROM Ingredientes;
+
+//Selecionando o ingrediente de valor mais baixo
+SELECT MIN(preço) FROM Ingredientes;

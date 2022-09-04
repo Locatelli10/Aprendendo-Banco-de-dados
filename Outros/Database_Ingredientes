@@ -1,6 +1,5 @@
 //Criando a tabela
 CREATE TABLE Ingredientes (comidaid INTEGER PRIMARY KEY, nome TEXT, preço REAL);
-
 //Inserindo valores
 INSERT INTO Ingredientes VALUES (1, carne, 40);
 INSERT INTO Ingredientes VALUES (2, frango, 22);

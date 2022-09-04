@@ -1,0 +1,17 @@
+USE logistica;
+GO
+
+CREATE TABLE Clientes (
+    CodigoDoCliente Char(10) NOT NULL,
+    NomeDaEmpresa Varchar(70) NOT NULL,
+    NomeDoContato Varchar(70) NOT NULL,
+    CargoDoContato Varchar(40) NOT NULL,
+    Endereco Varchar(50) NOT NULL,
+    Cidade Varchar(25) NOT NULL,
+    Regiao Varchar(25) NOT NULL,
+    CEP Varchar(15) NOT NULL,
+    Pais Varchar(25) NOT NULL,
+    Telefone Char(20) NOT NULL,
+    Fax Char(20) NOT NULL
+);
+

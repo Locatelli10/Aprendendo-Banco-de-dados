@@ -1,0 +1,17 @@
+USE logistica;
+GO
+
+CREATE TABLE Funcionarios (
+    CodigoDoFornecedor INT NOT NULL,
+    NomeDaEmpresa VARCHAR(70) NOT NULL,
+    NomeDoContato VARCHAR(70) NOT NULL,
+    CargoDoContato VARCHAR(40) NULL,
+    Endereco VARCHAR(50) NULL,
+    Cidade VARCHAR(25) NULL,
+    Regiao VARCHAR(25) NULL,
+    CEP CHAR(15) NULL,
+    Pais VARCHAR(25) NULL,
+    Telefone CHAR(20) NULL,
+    Fax CHAR(20) NULL
+);
+

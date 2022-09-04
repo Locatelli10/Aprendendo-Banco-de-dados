@@ -1,0 +1,9 @@
+USE logistica;
+GO
+
+CREATE TABLE Transportadora (
+    CodigoDaTransportadora INT NOT NULL,
+    NomeDaEmpresa VARCHAR(30) NOT NULL,
+    Telefone CHAR(20) NULL 
+);
+

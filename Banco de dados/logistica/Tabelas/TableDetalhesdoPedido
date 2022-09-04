@@ -1,0 +1,11 @@
+USE logistica;
+GO
+
+CREATE TABLE DetalhesDoPedido (
+    NumeroDoPedido int NOT NULL,
+    CodigoDoPedido int NOT NULL,
+    PrecoUnitario Money NULL,
+    Quantidade INT NULL,
+    Desconto FLOAT NULL
+);
+
